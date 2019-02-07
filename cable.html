@@ -1,0 +1,46 @@
+<div class="card card-body bg-light cable-div">
+	<div class="row">
+		<div class="col">
+			<input type="text" class="input-blend cable-title" value="Cable 1"></input>
+		</div>
+		<div class="col-auto">
+			<button class="delete-cable-button btn btn-danger" id="add-cable-button">Delete Cable</button>
+		</div>
+	</div>
+	<div class="dropdown-divider"></div>
+	<div class="row">
+		<div class="col-6">
+			<div class="dropdown">
+				<button class="add-comp-con-button add-connector-button btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="add-cable-button">Add Component Connector</button>
+				<div class="dropdown-menu">
+					<a class="add-comp-atx-24 dropdown-item" href="#">ATX 24 Pin</a>
+					<a class="add-comp-eps-8 dropdown-item" href="#">EPS 8 Pin</a>
+					<a class="add-comp-pcie-8 dropdown-item" href="#">PCIE 8 Pin</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-6">
+			<div class="add-psu-connector-dropdown dropdown">
+				<button class="add-psu-con-button add-connector-button btn btn-primary dropdown-toggle hidden" type="button" data-toggle="dropdown" id="add-cable-button">Add PSU Connector</button>
+				<div class="dropdown-menu">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="dropdown-divider"></div>
+	<div class="row">
+		<div class="col">
+			<h5>Component Side</h5>
+		</div>
+	</div>
+	<div class="comp-connector-section connector-section row">
+	</div>
+	<div class="dropdown-divider"></div>
+	<div class="row">
+		<div class="col">
+			<h5>PSU Side</h6>
+		</div>
+	</div>
+	<div class="psu-connector-section connector-section row">
+	</div>
+</div>

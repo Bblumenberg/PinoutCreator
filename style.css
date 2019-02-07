@@ -1,0 +1,118 @@
+.container-90 {
+	width: 90%;
+	position: relative;
+	margin-top: 2.5%;
+	left: 5%;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.btn {
+	margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.connector:not(:last-child):not(:nth-last-child(2)) {
+	margin-bottom: 50px;
+}
+	
+.input-blend {
+	background: none;
+	border: none;
+}
+
+.delete-connector-button {
+	color: red;
+	font-size: 2em;
+}
+
+.add-connector-button {
+	width: 100%;
+}
+
+.cable-title {
+	width: 100%;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.box:hover {
+/*
+	width: 60px;
+	height: 60px;
+*/
+	box-shadow:inset 0px 0px 3px 5px #0292ff;
+}
+
+.box:nth-last-child(2) {
+	border-right: 2px solid black;
+}
+
+.selected {
+	box-shadow:inset 0px 0px 3px 5px #0292ff;
+}
+
+.connector-row:last-child .box {
+	border-bottom: 2px solid black;
+}
+
+.red {
+	background: rgba(255, 44, 44, 0.57);
+}
+
+.orange {
+	background: rgba(248, 174, 28, 0.83);
+}
+
+.yellow {
+	background: rgba(243, 224, 14, 0.86);
+}
+
+.blue {
+	background: rgba(3, 37, 192, 0.77);
+	color: #cccccc;
+}
+
+.green {
+	background: rgba(36, 168, 10, 0.76);
+}
+
+.dark-grey {
+	background: rgba(49, 49, 49, 0.87);
+    color: #cccccc;
+}
+
+.light-grey {
+	background: rgba(169, 169, 169, 0.87);
+}
+
+.purple {
+	background: rgba(161, 74, 248, 0.75);
+}
+
+.black {
+	background: black;
+	box-shadow: none !important;
+}
+
+.white {
+	background: white;
+}
+
+.transparent {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
